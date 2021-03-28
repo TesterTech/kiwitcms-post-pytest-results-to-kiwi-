@@ -20,10 +20,10 @@ alias pytest=pytest-3
   ```
   import pytest
 
-def test_method():
+  def test_method():
     assert "a" == "a"
 
-def test_failed_method():
+  def test_failed_method():
     assert "a" == "b"
 
   ```
