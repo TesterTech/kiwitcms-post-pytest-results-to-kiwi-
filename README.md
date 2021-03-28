@@ -37,7 +37,13 @@ alias pytest=pytest-3
 
 - Now to post the report run ```tcms-junit.xml-plugin ./report.xml```
 
-
+- For your reference the variables I used are: 
+```
+export JOB_NAME="My Nice testing Job"
+export TCMS_PRODUCT_VERSION="1"
+export BUILD_NUMBER="2"
+```
+- If issue with SSL certificate please watch the TAP to Kiwi video, I explain in detail there. 
 
 References:
 - Junit XML plugin https://github.com/kiwitcms/junit.xml-plugin
